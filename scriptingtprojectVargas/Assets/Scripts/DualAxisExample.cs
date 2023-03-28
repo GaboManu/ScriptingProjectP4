@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DualAxisExample : MonoBehaviour
@@ -20,4 +18,4 @@ public class DualAxisExample : MonoBehaviour
         transform.position = new Vector3(xPos, 0, vPos);
         Debug.Log("ValueReturned: " + h.ToString("F2"));
     }
-}        
+}

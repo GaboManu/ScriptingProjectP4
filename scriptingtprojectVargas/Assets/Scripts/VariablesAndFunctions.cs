@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 public class VariablesAndFunctions : MonoBehaviour
 {
@@ -7,7 +5,7 @@ public class VariablesAndFunctions : MonoBehaviour
 
     void Start()
     {
-         myInt = MultiplyByTwo(myInt);
+        myInt = MultiplyByTwo(myInt);
         Debug.Log(myInt);
     }
 
